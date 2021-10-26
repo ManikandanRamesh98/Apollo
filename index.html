@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multispeciality hospital</title>
+    <style>
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid rebeccapurple;
+    background-color:gray;
+}
+li{
+    float: left;
+}
+li a{
+padding: 14px 16px;
+display: block;
+text-align:center ;
+text-decoration: none;
+}
+#division1{
+position: relative;
+top: 20px;
+background-color: slategrey;
+height: 400px;
+}
+#lastmenu{
+list-style-type: none;
+margin: 0px;
+overflow: hidden;
+padding: 0px;
+}
+.lm{
+    float: left;
+    padding: 110px;
+}
+    </style>
+    <script>
+        function fn1(){
+var i1 = document.getElementById("button1");
+var i2 = document.getElementById("button2");
+i1.onclick = function (){
+    location.href = "https://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671";
+}
+i2.onclick = function(){
+    location.href = "https://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671";
+}
+        }
+        function fn2(){
+var i1 = document.getElementById("button1");
+var i2 = document.getElementById("button2");
+      i1.style.backgroundColor="green";
+      i2.style.backgroundColor="red";
+        }
+        function fn3(){
+            var i1 = document.getElementById("button1");
+           var i2 = document.getElementById("button2");
+           i1.style.backgroundColor = "red";
+           i2.style.backgroundColor="royalblue";
+
+        }
+        function imgfn1(){
+            var i1 = document.getElementById("img1");
+            i1.src = "https://cdn.apollohospitals.com/dev-apollohospitals/2021/09/1920x593.jpg";
+        }
+        function imgfn2(){
+            var i1 = document.getElementById("img1");
+  i1.src = "https://cdn.apollohospitals.com/dev-apollohospitals/2021/02/desktop-banner.jpg";
+        }
+        function book(){
+var i1 = document.getElementById("book1");
+i1.onclick = function(){
+    location.href = "https://www.askapollo.com/?utm_source=referral&utm_medium=homepagebanner";
+}
+        }
+    </script>
+</head>
+<body style="height: fit-content;width: fit-content;">
+    <header>
+        <nav>
+            <ul id = "navbar">
+              <li><p>follow us on social media</p></li>
+              <li><a href="https://twitter.com/?lang=en" style="text-decoration: none;"><img src = "https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-601425683.jpg" alt = "sry" width="20px"></a></li>
+              <li><a href="https://twitter.com/?lang=en" style="text-decoration: none;"><img src = "https://thumbs.dreamstime.com/b/facebook-logo-icon-voronezh-russia-november-square-blue-color-164585769.jpg" alt = "sry" width="20px"></a></li>
+              <li><a href="https://twitter.com/?lang=en" style="text-decoration: none;"><img src = "https://png.pngtree.com/element_our/md/20180626/md_5b321c9756fc6.jpg" alt = "sry" width="20px"></a></li>
+              <li style="float: right;"><a href="privacypolicy.html" style="color: black;">PrivacyPolicy</a></li>
+              <li style="float: right;"><a href="disclaimer.html" style="color: black;">Disclaimer</a></li>
+              <li style="float: right;"><a href="contact.html" style="color: black;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="https://cdn.apollohospitals.com/dev-apollohospitals/2021/06/AH_logo_v-60c8405cbca3d.svg" width="100px">
+    <input type="text" name = "search" id="searchbar" list = "search1" placeholder="Search Hospital" style= "position: relative;left: 90px;width: 400px;height: 40px;"> 
+    <datalist id="search1">
+        <option value="Vanagaram">Vanagaram</option>
+        <option value="Pudukkottai">Pudukkottai</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Tambaram">Tambaram</option>
+        <option value="mayiladu">mayiladu</option>
+        <option value="Poonamalle">Poonamalle/option>
+    </datalist>
+    <img src="https://cdn.apollohospitals.com/dev-apollohospitals/assets/images/certify-award.jpg" alt = "sry" style="width: 100px;position: relative;left: 250px;top: 20px;">
+    <button onclick="fn1()" onmouseover="fn2()" onmouseout="fn3()" style="width:100px;height: 40px;position: relative;left: 400px;background-color: red;" id="button1">Emergency</button>
+    <button onclick="fn1()" onmouseover="fn2()" onmouseout="fn3()" style="width:100px;height: 40px;position: relative;left: 400px;background-color: royalblue;" id = "button2">Apollo Lifeline</button>
+    <br>
+    <br>
+<hr>
+<br>
+patient care:<select>
+    <option value=" " selected disabled>--Select--</option>
+    <option value="Find a doctor">Find a doctor</option>
+    <option value="service excellence">Service excellence</option>
+    <option value="health and lifestyle">health and lifestyle</option>
+    <option value="patient testimonials">patient testimonials</option>
+    <option value="medical feed">medical feed</option>
+</select>
+centres of excellence:<select>
+    <option value=" " selected disabled>--Select--</option>
+    <option value="Find a doctor">Find a doctor</option>
+    <option value="service excellence">Service excellence</option>
+    <option value="health and lifestyle">health and lifestyle</option>
+    <option value="patient testimonials">patient testimonials</option>
+    <option value="medical feed">medical feed</option>
+</select>
+Health information:<select>
+    <option value=" " selected disabled>--Select--</option>
+    <option value="Find a doctor">Find a doctor</option>
+    <option value="service excellence">Service excellence</option>
+    <option value="health and lifestyle">health and lifestyle</option>
+    <option value="patient testimonials">patient testimonials</option>
+    <option value="medical feed">medical feed</option>
+</select>
+international patient:<select>
+    <option value=" " selected disabled>--Select--</option>
+    <option value="Find a doctor">Find a doctor</option>
+    <option value="service excellence">Service excellence</option>
+    <option value="health and lifestyle">health and lifestyle</option>
+    <option value="patient testimonials">patient testimonials</option>
+    <option value="medical feed">medical feed</option>
+</select>
+Hospitals:<select style="width: 200px;">
+    <option value=" " selected disabled>--Select--</option>
+    <option value="Find a doctor">Find a doctor</option>
+    <option value="service excellence">Service excellence</option>
+    <option value="health and lifestyle">health and lifestyle</option>
+    <option value="patient testimonials">patient testimonials</option>
+    <option value="medical feed">medical feed</option>
+</select>
+<br>
+<br>
+<hr>
+<div id="ownimage">
+<img src="https://cdn.apollohospitals.com/dev-apollohospitals/2021/02/desktop-banner.jpg" alt="sry" width="1350PX" onmouseover="imgfn1()" onmouseout="imgfn2()" id="img1">
+<h3 style="border: 1px solid black;width: 400px;position: relative;top: -250px;left: 900px;background-color: white;">COVID-19 INFORMATION<br>
+    Everything You Need To Know About <br>COVID-19 : Symptoms, Diagnosis, Treatment & Vaccination Centers</h3>
+    <button onclick="book()" id = "book1" style="width:180px;background-color:slateblue;position: relative;top: -250px;left:900px;height: 30px;">Book An Appointment</button>
+</div>
+<img src = "https://cdn.apollohospitals.com/dev-apollohospitals/2021/04/apollohealthcare.jpg" alt = "sry" style="width: 500px;float: right;position: relative;top: -140px;">
+<div id = "text1">
+<h3 style="opacity: 50%;">WHO WE ARE</h3>
+<h2>Why Choose<br>
+    Apollo Healthcare?</h2>
+<p>Established by Dr Prathap C Reddy in 1983, Apollo Healthcare has a robust presence across the healthcare ecosystem. From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, Apollo Hospitals has touched more than 120 million lives from over 120 countries, offering the best clinical outcomes.</p>
+<p style="position: relative;top: 20px;">Largest network of the world’s<br> finest and brightest medical experts who provide<br> compassionate care using outstanding expertise and<br> advanced technology</p>
+<p style="position: relative;top: -70px;left: 400px;">Apollo Pharmacy is India’s first,<br> largest and most trusted branded pharmacy network, with over<br> 4000 plus outlets covering the entire nation</p>
+</div>
+<div id = "division1">
+<image src = "https://cdn.apollohospitals.com/dev-apollohospitals/2021/06/AH_logo_v.svg" alt = "sry" style="position: relative;width: 100px;top: 30px;left: 20px;"></image>
+<h2 style="position: relative;top: 20px;left: 20px;">Connect With<br>
+    Apollo Health Care</h2>
+    <p style="position: relative;top: 20px;left: 20px;">Largest network of the world’s finest and brightest <br>medical experts who provide compassionate care using <br>outstanding expertise and advanced technology</p>
+    <img src="https://images.moneycontrol.com/static-mcnews/2020/09/APOLLO-HOSPITALS-770x433.jpg?impolicy=website&width=770&height=431" alt="sry" width="500px" style="position: relative;left: 400px;top: -300px;filter: blur(1px);">
+<a href="https://www.youtube.com/watch?v=0WWzgGyAH6Y"><img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" alt="sry" width="50px"  style="position: relative;top: -400px;left: 100px;"></a>
+<iframe src="https://www.apollo247.com/specialties" style="position: relative;left: 400px;height: 400px;top: -250px;"></iframe>
+</div>
+</body>
+</html>
